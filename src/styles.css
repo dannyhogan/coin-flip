@@ -1,3 +1,15 @@
 body {
     text-align: center;
 }
+
+input {
+    margin: 0 5px;
+}
+
+.win {
+    color: green;
+}
+
+.loss {
+    color: red;
+}
