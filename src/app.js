@@ -1,3 +1,5 @@
+import headsOrTails from '../src/headsOrTails.js';
+
 const winCounter = document.getElementById('win-counter');
 const lossCounter = document.getElementById('loss-counter');
 const coinImage = document.getElementById('coin-image');

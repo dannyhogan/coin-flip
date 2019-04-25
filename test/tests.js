@@ -1,11 +1,5 @@
+import headsOrTails from '../src/headsOrTails.js';
 const test = QUnit.test;
-
-function headsOrTails(number) {
-    if(number < .5) {
-        return 'heads';
-    }
-    return 'tails'
-}
 
 test('return a value of heads if the randomNumber is below .5', function(assert) {
     //Arrange
