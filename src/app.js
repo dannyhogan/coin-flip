@@ -10,5 +10,6 @@ const flipButton = document.getElementById('flip-button');
 
 flipButton.addEventListener('click', () => {
     const randomNumber = Math.random();
-
+    const result = headsOrTails(randomNumber);
+    console.log(r
 });
