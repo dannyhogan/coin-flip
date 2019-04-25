@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coin Flip!</title>
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+    <h1>Coin Flip!</h1>
+    <p>
+        <span id="win-counter">Wins: 0</span>
+        <span id="loss-counter">Losses: 0</span>
+    </p>
+    <p>
+        <img id="coin-image" src="./assets/heads.png">
+    </p>
+    <p>
+        <span id="display-message">Select either heads or tails and flip the coin!</span>
+    </p>
+    <p>
+        <label >
+            <input id="heads-radio" type="radio" name="pick-side">Heads
+        </label>
+        <label>
+            <input id="tails-radio" type="radio" name="pick-side">Tails
+        </label>
+    </p>
+    <p>
+        <button id="flip-button">Flip!</button>
+    </p>
+    <script src="./src/app.js"></script>
+</body>
+</html>
