@@ -7,5 +7,6 @@ const tailsRadio = document.getElementById('tails-radio');
 const flipButton = document.getElementById('flip-button');
 
 flipButton.addEventListener('click', () => {
-    console.log('hello world');
+    const randomNumber = Math.random();
+
 });
